@@ -1,0 +1,11 @@
+.login-block{
+    background: white;
+    text-align: center;
+    min-height: 50vh;
+}
+.button-block{
+    width: 100%;
+    background:rgb(23,79,141);
+    border-color: rgb(23,79,141);
+    color: white;
+}

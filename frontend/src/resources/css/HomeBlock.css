@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+.home-block {
+    min-height: 100vh;
+}
+
+.left {
+    background-image: url("../img/bg.svg");
+}
+
+.right {
+    background: linear-gradient(
+            45deg,
+            rgba(3, 0, 31, 0.9),
+            rgba(11, 91, 165, 0.6)
+    ),
+    url("../img/bg.svg");
+}
+
+.home-block-left-logo {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.description {
+    width: 100%;
+    position: absolute; /* 2 */
+    top: 50%; /* 3 */
+    transform: translate(0, -50%);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.description h2 {
+    color: #ffffff;
+    font-size: xx-large;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.home-menu {
+    padding-right: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.header {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    z-index: 1001;
+    position: fixed;
+    background: linear-gradient(
+            45deg,
+            rgba(3, 0, 31, 0.9),
+            rgba(11, 91, 165, 0.6)
+    );
+    padding: 0;
+}
+
+.arrowDown {
+    height: 45px;
+    font-size: xx-large;
+    color: rgb(180, 180, 180);
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+.divArrow {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+.ant-layout-footer{
+    padding: 0 50px;
+}

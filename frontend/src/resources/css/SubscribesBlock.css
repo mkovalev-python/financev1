@@ -1,0 +1,10 @@
+.subscribes-block{
+    min-height: 80vh;
+    text-align: center;
+    background: linear-gradient(
+            45deg,
+            rgba(3, 0, 31, 0.9),
+            rgba(11, 91, 165, 0.6)
+    ),
+    url("../img/bg.svg");
+}

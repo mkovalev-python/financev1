@@ -1,0 +1,18 @@
+.possibilities-block {
+    min-height: 90vh;
+    text-align: center;
+}
+.p1 {
+    margin-right: 10px;
+    color: #32435e;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+.p2 {
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(8, 38, 68);
+}
