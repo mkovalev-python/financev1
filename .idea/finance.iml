@@ -17,7 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/backend" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/frontend" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Remote Python 3.9.7 Docker (finance_web:latest)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (finance-J9bMI9gK-py3.9)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
